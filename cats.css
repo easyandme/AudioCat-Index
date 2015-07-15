@@ -1,0 +1,101 @@
+/*
+@2015 copyright maxim-xu
+*/
+
+body {
+  background-color:  #FDF2F2;
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
+body div#start {
+  margin:0 auto;
+  border-left: 3px solid #f1f1f1;
+  border-right: 3px solid #f1f1f1;
+  background-color: #fff;
+  max-width: 50em;
+  min-width: 320px;
+  height: 100%;
+  padding: 1em 2em 8em 2em;
+}
+a {
+	color: green;
+}
+/* a:visited {
+  color:red;
+} */
+small {
+  color:grey;
+  margin-left: 10px;
+}
+h3 {
+  font-family:Merriweather, segoe ui, Geneva, georgia;
+  font-weight:bold;
+  text-align:center;
+}
+h5 {
+  font-family:Times New Roman, sans-serif;
+  color:brown;
+}
+h6 {
+  font-size: 100%;
+  text-align:center;
+}
+.collections {
+  margin-top: 37px;
+  font-family: segoe ui, Geneva;
+  text-align:center;
+}
+.tops {
+  margin-top: 37px;
+  font-family: segoe ui, Geneva;
+  text-align:center;
+}
+.recentBooks {
+  text-align: left;
+}
+.bookImage {
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.bookImage:hover {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+}
+.social {
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
+}
+.social:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+#footer {
+  top:80em;
+  padding:2em;
+  text-align: center;
+  border-left: 3px solid #f1f1f1;
+  border-right: 3px solid #f1f1f1;
+  background-color: #fff;
+  max-width: 50em;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+}
+#adeptus {
+  font-family: segoe ui; times; 
+}
